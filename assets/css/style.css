@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size: 15px;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    background-color: #282a36;
+}
+
+header a {
+    color: #f8f8f2;
+}
+
+#logo:hover {
+    color: #ff79c6;
+}
+
+#menu {
+    display: flex;
+}
+
+#menu li {
+    margin-left: 10px;
+}
+
+#menu li a {
+    display: block;
+    padding: 10px;
+    transition: all .1s ease;
+}
+
+#menu li a:hover {
+    border-bottom: solid 3px #bd93f9;
+}
